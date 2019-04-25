@@ -1,6 +1,10 @@
 <?xml version="1.0"?>
 <ruleset name="moodle">
-    <description>The Moodle coding style</description>
+    <description>The Liip Moodle coding style</description>
+
+    <!-- START Liip additions -->
+    <rule ref="Generic.Arrays.DisallowLongArraySyntax"/>
+    <!-- END Liip additions -->
 
     <rule ref="Generic.Classes.DuplicateClassName"/>
 
